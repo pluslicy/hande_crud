@@ -1,0 +1,28 @@
+.edu_form {
+  width: 880px;
+  margin: 0 auto;
+  border-bottom: 1px dashed #ededed;
+  margin-bottom: 1em;
+  position: relative;
+}
+.edu_form .delbtn{
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  display: none;
+}
+.edu_form:hover .delbtn {
+  display: block;
+}
+
+.edu_form .title {
+  text-align: right;
+}
+
+.edu_form .title.require::before {
+  content: "* ";
+}
+
+.edu_form .row {
+  margin-bottom: 1em;
+}

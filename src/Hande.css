@@ -1,0 +1,21 @@
+.hande {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.hande .addEduBtn {
+  width: 680px;
+  margin: 0 auto;
+  text-align: center;
+  padding: .5em;
+  background: lightpink;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hande .btns {
+  width: 680px;
+  text-align: center;
+  margin: 0 auto;
+  padding: .5em 0;
+}
