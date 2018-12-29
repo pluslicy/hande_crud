@@ -10,6 +10,7 @@ import {
 class EduForm extends Component {
   constructor(props){
     super(props);
+    // 绑定受控组件
     this.state = {
       period:'',
       school:'',

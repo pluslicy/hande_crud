@@ -37,13 +37,10 @@ export default function(state=initState,action){
         }
         return item;
       })
-      
-      console.log('update....',result);
       return {
         ...state,
         list:[...result]
       }
-      
     default :
       return state;
   }

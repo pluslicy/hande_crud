@@ -1,6 +1,7 @@
 export const TO_ADD_EDU = 'TO_ADD_EDU'
 export const REMOTE_EDU = 'REMOTE_EDU'
 export const UPDATE_EDU = 'UPDATE_EDU'
+export const COMMIT_EDU = 'COMMIT_EDU'
 
 // 添加教育经历
 export function toAddEdu(){
@@ -20,5 +21,13 @@ export function updateEdu(edu){
   return {
     type:UPDATE_EDU,
     payload:edu
+  }
+}
+
+// 提交教育经历
+export function commitEdus(edus){
+  return {
+    type:COMMIT_EDU,
+    payload:edus
   }
 }
